@@ -6,13 +6,13 @@ from decimal import *
   
 app = Flask(__name__) 
 
-app.secret_key = 'your secret key'
+app.secret_key = '4b3403665fea6dcd9aeb82f0e1234567'
 
 # connecting to mysql database
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'tejas'
-app.config['MYSQL_DB'] = 'farm1_db'
+app.config['MYSQL_PASSWORD'] = 'Adi@#2611'
+app.config['MYSQL_DB'] = 'farm'
 app.config["CACHE_TYPE"] = "null"
   
 mysql = MySQL(app) 
